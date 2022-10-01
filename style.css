@@ -19,9 +19,48 @@ h1{
     width: 80vw;
     height: 70vh;
     background-color: green;
+    position: relative;
 }
 
 img{
     width: 100%;
     height: 100%;
 }
+
+#candle{
+    position: absolute;
+    width: 20vw;
+    height: 20vh;
+    z-index: 2;
+    right:0px;
+    bottom:0px;
+    animation: bounce 5s linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bounce{
+     to{
+        transform: translateX(0);
+    } 50% {
+        transform: translateX(-9px);
+    } 100% {
+        transform: translateX(0px);
+    }
+}
+
+.glow {
+    font-size: 80px;
+    color: orange;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 2px #fff, 0 0 10px #fff, 0 0 15px orange, 0 0 20px orange, 0 0 25px orange, 0 0 25px orange, 0 0 25px orange;
+    }
+    
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 10px goldenrod, 0 0 15px goldenrod, 0 0 20px goldenrod, 0 0 25px goldenrod, 0 0 25px goldenrod, 0 0 25px goldenrod;
+    }
+  }

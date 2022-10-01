@@ -1,0 +1,70 @@
+body{
+    background-color: blue;
+}
+
+
+.container{
+    margin: auto;
+    margin-top: 2em;
+    width: 80vw;
+    height: 80vh;
+    position: relative;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 35px goldenrod;
+    opacity: 1;
+}
+h1{
+    font-size: 48px;
+    font-family: 'Tangerine', serif;
+    font-weight: 600;
+    color: goldenrod;
+    text-shadow: 2px 2px black;
+}
+
+.child{
+    position: absolute;
+    top: 50px;
+    right: 220px;
+    width: 30%;
+    height: 60%;
+    font-family: serif;
+    color: rgb(56,56,56);
+    font-size: 1.22em;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    margin: 2em;
+    text-decoration-style: none;
+}
+button:hover {
+        cursor: pointer;
+        transform: scale(1.25);
+        filter: brightness(120%);
+}
+#right1{
+    position: relative;
+    right: 400px;
+    
+}
+#right2{
+    position: relative;
+    right: 275px;
+    
+}
+#right3{
+    position: relative;
+    right: 150px;
+    
+}
+#right4{
+    position: relative;
+    right: 25px;
+    color: rgb(31, 26, 26);
+}

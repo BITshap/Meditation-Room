@@ -1,0 +1,18 @@
+body{
+    background-color: blue;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-family: "Open Sans";
+}
+
+h1{
+    font-size: 48px;
+    font-family: 'Tangerine', serif;
+    font-weight: 700;
+    color: goldenrod;
+    text-shadow: 4px 4px black;
+}
