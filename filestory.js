@@ -3,11 +3,6 @@ document.getElementById("enter").addEventListener('click', function() {
 });
 
 
-
-
-
-
-
 async function typeSentence(sentence, elementRef, delay = 40) {
     const letters = sentence.split("");
     i = 0;

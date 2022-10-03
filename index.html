@@ -7,13 +7,15 @@
     <title>Meditation Room</title>
     <link rel="stylesheet" href = "https://fonts.googleapis.com/css?family=Tangerine">
     <link rel="stylesheet" href = "style.css">
+    <script language="JavaScript" type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
 </head>
 <body>
     <div id="wrapper">
     <div class="navbar">
         <ul>
             <li id ="instructions"><a href="instructions.html">Instructions</a></li>
-            <li>^If you need Help^</li>
+            <li>^I would click Here^</li>
         </ul>
         </div>
         <div id="header"
@@ -24,16 +26,17 @@
         <img src="https://images.unsplash.com/photo-1589400554239-7c6cf8393a6e?ixlib=rb-1.2.1&w=1080&fit=max&q=80&fm=jpg&crop=entropy&cs=tinysrgb">
         <img id = "candle" src="https://assets.ldscdn.org/b9/35/b935708c1e86b1b8a40092ee51fe631e2d861d0c/burning_candle.jpeg">
         <div id = "fortunes">
-            hi
+            <b><p></p></b>
+        </div>
+        <div id = "score">
+            Luck: <span id="scored"></span>
         </div>
         <div class ="musicbutton">
         <img id = "icon" src= "images/1.webp">
         <p id = "click">Click Here!</p>
         </div>
         
-        <div id = "score">
-
-        </div>
+       
     </div>
     <audio id="sound">
         <source src="sounds/himalayan-singing-bowls-62602.mp3" type="audio/mp3">

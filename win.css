@@ -1,6 +1,6 @@
 .child{
     display: flex;
-    color: rgb(44, 206, 73);
+    color: rgb(43, 128, 58);
     font-size: 1.22em;
     font-weight: 700;
     flex-wrap: nowrap;
@@ -28,7 +28,7 @@ h1{
     border: 1px solid red;
     width: 80vw;
     height: 70vh;
-    background-color: green;
+    background-color: wheat;
     position: relative;
 }
 
