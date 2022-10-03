@@ -14,7 +14,7 @@ body{
 img{
     width: 100%;
     height: 100%;
-    box-shadow: 0 0 35px goldenrod;
+    box-shadow: 0 0 50px goldenrod;
     opacity: 1;
 }
 h1{
@@ -27,14 +27,40 @@ h1{
 
 .child{
     position: absolute;
-    top: 50px;
+    top: 100px;
     right: 220px;
     width: 30%;
     height: 60%;
     font-family: serif;
     color: rgb(56,56,56);
     font-size: 1.22em;
+    font-weight: 700;
 }
+
+@media (max-width: 1300px){
+.child{
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    width: 30%;
+    height: 20vh;
+    font-family: serif;
+    color: rgb(56,56,56);
+    font-size: 1em;
+}
+}
+
+@media (max-width: 900px){
+    .child{
+        position: absolute;
+        top: 150px;
+        right: 0px;
+        width: 30%;
+        font-family: serif;
+        color: rgb(56,56,56);
+        font-size: .8em;
+    }
+    }
 
 button{
     display: flex;
@@ -42,12 +68,16 @@ button{
     justify-content: center;  
     margin: 2em;
     text-decoration-style: none;
+    background-color: orange;
 }
 button:hover {
         cursor: pointer;
-        transform: scale(1.25);
+        transform: scale(1.5);
         filter: brightness(120%);
+        transition: all 0.3s ease 0s;
 }
+
+
 #right1{
     position: relative;
     right: 400px;
