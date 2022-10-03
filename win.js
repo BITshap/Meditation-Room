@@ -1,5 +1,5 @@
 document.getElementById("again").addEventListener('click', function() {
-    location.href ="story.html"
+    location.href ="index.html"
     printMessage("You already passed.. don't have to do this again", '#repeat')
 })
 
