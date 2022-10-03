@@ -3,16 +3,33 @@ body{
     margin: 0;
     padding: 0;
     height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    font-family: "Open Sans";
+
 }
 
 h1{
-    font-size: 48px;
+    font-size: 65px;
     font-family: 'Tangerine', serif;
     font-weight: 700;
     color: goldenrod;
     text-shadow: 4px 4px black;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+    justify-content:center;
+    width: 70vw;
+    height: 80vh;
+    font-family: serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: goldenrod;
+}
+
+button{
+    right: -1000px;
+    position: relative;
+    bottom: -200px;
 }
