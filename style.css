@@ -21,6 +21,9 @@ h1{
     background-color: green;
     position: relative;
 }
+li{
+    list-style: none;
+}
 
 img{
     width: 100%;
@@ -38,14 +41,12 @@ img{
     animation-iteration-count: infinite;
 }
 
-#icon{
-    position: absolute;
-    width: 7vw;
-    height: 7vh;
-    z-index: 2;
-    left: 0px;
-    top: 0px;
-    cursor: pointer;
+
+
+#click{
+    color: white;
+    font-size: 11px;
+   
 }
 
 @keyframes bounce{
@@ -74,3 +75,52 @@ img{
       text-shadow: 0 0 5px #fff, 0 0 10px goldenrod, 0 0 15px goldenrod, 0 0 20px goldenrod, 0 0 25px goldenrod, 0 0 25px goldenrod, 0 0 25px goldenrod;
     }
   }
+
+  #instructions {
+    display: flex;
+    font-size: 48px;
+    font-family: 'Tangerine', serif;
+    font-weight: 600;
+    text-shadow: 2px 2px black;
+    list-style: none;
+  }
+
+  .musicbutton {
+    font-size: 18px;
+    font-weight: 400;
+    position: absolute;
+    width: 5vw;
+    height: 7vh;
+    z-index: 3;
+    left: 0px;
+    top: 0px;
+    cursor: pointer;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+  }
+  #click{
+    margin-left: 18px;
+
+  }
+
+  #header{
+    margin: auto;
+    margin: none;
+    width: 60vw;
+  }
+
+  #fortunes {
+    color: white;
+    position: absolute;
+    border: 10px solid white;
+    width: 30vw;
+    height: 30vh;
+    right:110px;
+    bottom:200px;
+    border-radius: 15px;
+  }
+  
+
+ 
+

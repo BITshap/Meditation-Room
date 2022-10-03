@@ -1,0 +1,60 @@
+.child{
+    display: flex;
+    color: rgb(44, 206, 73);
+    font-size: 1.22em;
+    font-weight: 700;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+body{
+    background-color: blue;
+}
+
+h1{
+    font-size: 48px;
+    font-family: 'Tangerine', serif;
+    font-weight: 700;
+    color: goldenrod;
+    text-shadow: 4px 4px black;
+}
+
+
+.container{
+    margin: auto;
+    border: 1px solid red;
+    width: 80vw;
+    height: 70vh;
+    background-color: green;
+    position: relative;
+}
+
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+#again{
+    margin: 2em;
+}
+
+
+
+
+
+
+
+
+  
+ 
+
+  
+
+ 
+ 
+
+  
