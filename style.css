@@ -38,6 +38,16 @@ img{
     animation-iteration-count: infinite;
 }
 
+#icon{
+    position: absolute;
+    width: 7vw;
+    height: 7vh;
+    z-index: 2;
+    left:0px;
+    top: 0px;
+    cursor: pointer;
+}
+
 @keyframes bounce{
      to{
         transform: translateX(0);
